@@ -50,6 +50,9 @@ Made for revising for machine learning interviews.
 * Lemmatization combines words using suffixes without altering the words' meaning.
 * E.g. [quicker, browner, foxes] to [quick, brown, fox]
 
+#### Tokenization
+* Tokenization separates text into tokens, e.g. words.
+
 #### NER
 * NER stands for Named Entity Recognition.
 * NER identifies entities such as the name of a person, place or organization.
@@ -86,3 +89,10 @@ Made for revising for machine learning interviews.
 #### Multi-head attention
 * Multi-head attention mechanism computes attention multiple times in parallel, then concatenated together.
 * Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions.
+
+#### BERT
+
+#### GPT
+
+#### Transformers
+
