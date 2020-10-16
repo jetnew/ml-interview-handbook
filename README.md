@@ -1,8 +1,15 @@
 # ML Interview Handbook
 
-Made for revising for machine learning interviews.
+For revising machine learning interviews.
 
-## ML - Machine Learning
+# Table of Contents
+1. [Machine Learning](#ML)
+2. [Deep Learning](#DL)
+3. [Natural Language Processing](#NLP)
+4. [Deep Learning for NLP](#DL-for-NLP)
+
+# ML - Machine Learning
+Machine Learning
 
 #### L1 & L2 regularization
 * L1 regularization is used in Lasso regression, adding absolute magnitude of coefficients to loss function
@@ -12,7 +19,12 @@ Made for revising for machine learning interviews.
 * L2 regularization = lambda * sum (|B|)
 
 #### Naive Bayes
-* Naive Bayes
+* Naive Bayes is a
+* Naive Bayes's limitation
+
+#### SVM
+* SVM stands for Support Vector Machines.
+* SVM algorithm
 
 #### Precision
 * Precision = TP / (TP + FP)
@@ -34,13 +46,15 @@ Made for revising for machine learning interviews.
 * AUROC (or AUC) is the Area Under ROC curve, which measures the performance over all possible classification thresholds.
 
 
-## DL - Deep Learning
+# DL
+Deep Learning
 
 #### ReLU
 * ReLU is the Rectified Linear Unit.
 * ReLU resolves the Vanishing Gradients problem, where the gradient of the sigmoid activation function tends towards 0 as the value of the sigmoid tends to 0 or 1.
 
-## NLP - Natural Language Processing
+# NLP
+Natural Language Processing
 
 #### Stop words
 * Stop words, e.g. is, was, are, were, are usually removed during text pre-processing because they are usually not useful for NLP.
@@ -95,7 +109,8 @@ Made for revising for machine learning interviews.
 #### Levenshtein distance
 * Levenshtein distance is the minimum edit distance (single-character edits) required to transform between words.
 
-## DL for NLP - Deep Learning for NLP
+# DL for NLP
+Deep Learning for NLP
 
 #### LSTM
 * LSTM is the Long Short Term Memory network.
