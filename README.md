@@ -4,6 +4,13 @@ Made for revising for machine learning interviews.
 
 ## ML - Machine Learning
 
+#### L1 & L2 regularization
+* L1 regularization is used in Lasso regression, adding absolute magnitude of coefficients to loss function
+* L1 regularization performs feature selection by decreasing feature coefficients to zero.
+* L1 regularization = lambda * sum(B^2)
+* L2 regularization is used in Ridge regression, adding squared magnitude of coefficients to loss function.
+* L2 regularization = lambda * sum (|B|)
+
 #### Naive Bayes
 * Naive Bayes
 
