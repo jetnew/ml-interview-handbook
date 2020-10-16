@@ -4,6 +4,9 @@ Made for revising for machine learning interviews.
 
 ## ML - Machine Learning
 
+#### Naive Bayes
+* Naive Bayes
+
 #### Precision
 * Precision = TP / (TP + FP)
 * Precision is employed when the cost of FP is high, e.g. a patient falsely classified positive for heart disease will experience unnecessary stress.
@@ -42,6 +45,10 @@ Made for revising for machine learning interviews.
 * IDF(Word) = log_e(Total no. of documents / No. of documents with term)
 * When TF * IDF is high, frequency of the term is low, vice versa.
 
+### BoW
+* Bag-of-Words is a representation of the vocabulary in a document.
+* Bag-of-Words can be a vector, mapping word to word frequency in a document. E.g. [0,1,1,2,1]
+
 #### Stemming
 * Stemming removes the suffix from a word to obtain its root word.
 * E.g. [running, flying] to [run, fly]
@@ -65,6 +72,10 @@ Made for revising for machine learning interviews.
 * POS tagging stands for Parts-Of-Speech tagging.
 * POS tagging assigns tags to words, such as nouns, adjectives, verbs.
 
+#### Dependency parsing
+* Dependency parsing (or syntactic parsing) assigns a syntactic structure, such as a parse tree.
+* Dependency parsing is used in grammar checking.
+
 #### Word similarity
 * Word similarity can be measured by cosine distance between word vectors.
 * Cosine distance = (A . B) / (||A|| * ||B||)
@@ -73,6 +84,9 @@ Made for revising for machine learning interviews.
 * Perplexity is the exponentiated average negative log-likelihood per token, or the probability distribution of words over the entire text.
 * Perplexity can evaluate good language models by assigning a higher probability to the right prediction.
 * Perplexity = exp(-log(p(string) / (no. of words/chars + 1 in the string)))
+
+#### Levenshtein distance
+* Levenshtein distance is the minimum edit distance (single-character edits) required to transform between words.
 
 ## DL for NLP - Deep Learning for NLP
 
@@ -91,8 +105,9 @@ Made for revising for machine learning interviews.
 * Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions.
 
 #### BERT
+* BERT is Bidirectional Encoder Representations from Transformers.
+* BERT uses Masked LM (MLM) to perform bidrectional training in models.
+* BERT trains by masking 15% of words in a sequence and evaluates the prediction of the masked words.
 
-#### GPT
-
-#### Transformers
-
+#### GPT-2
+* GPT is Generative Pretrained Transformer (with GPT-2, GPT-3 versions).
