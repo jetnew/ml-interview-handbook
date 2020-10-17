@@ -11,6 +11,9 @@ For revising machine learning interviews.
 # ML - Machine Learning
 Machine Learning
 
+#### Log-loss
+* Log-loss is the negative log-likelihood, used as the loss function for binary logistic regression.
+
 #### L1 & L2 regularization
 * L1 regularization is used in Lasso regression, adding absolute magnitude of coefficients to loss function
 * L1 regularization performs feature selection by decreasing feature coefficients to zero.
@@ -52,6 +55,9 @@ Deep Learning
 #### ReLU
 * ReLU is the Rectified Linear Unit.
 * ReLU resolves the Vanishing Gradients problem, where the gradient of the sigmoid activation function tends towards 0 as the value of the sigmoid tends to 0 or 1.
+
+#### Dropout
+* Dropout is
 
 # NLP
 Natural Language Processing
@@ -125,6 +131,9 @@ Deep Learning for NLP
 #### Multi-head attention
 * Multi-head attention mechanism computes attention multiple times in parallel, then concatenated together.
 * Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions.
+
+#### Transformer
+* Transformer is
 
 #### BERT
 * BERT is Bidirectional Encoder Representations from Transformers.
