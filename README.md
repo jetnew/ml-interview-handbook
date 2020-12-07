@@ -48,6 +48,14 @@ Machine Learning
 * ROC curve visualises the trade-off between TP rate and FP rate.
 * AUROC (or AUC) is the Area Under ROC curve, which measures the performance over all possible classification thresholds.
 
+# Bayesian Learning
+
+#### Bayes Rule
+* Bayes Rule is a way to transform P(A|B) to P(B|A).
+* $P(A|B)P(B) = P(B|A)P(A)$
+
+#### Variational Inference
+* Variational inference is a technique to approximate a posterior distribution using an analytic distribution by minimising the KL divergence, deriving the evidence lower bound (ELBO), the lower bound for the log-likelihood.
 
 # DL
 Deep Learning
