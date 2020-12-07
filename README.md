@@ -4,9 +4,10 @@ For revising machine learning interviews.
 
 # Table of Contents
 1. [Machine Learning](#ML)
-2. [Deep Learning](#DL)
-3. [Natural Language Processing](#NLP)
-4. [Deep Learning for NLP](#DL-for-NLP)
+2. [Bayesian Learning]()
+3. [Deep Learning](#DL)
+4. [Natural Language Processing](#NLP)
+5. [Deep Learning for NLP](#DL-for-NLP)
 
 # ML - Machine Learning
 Machine Learning
